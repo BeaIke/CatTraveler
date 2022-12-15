@@ -1,0 +1,88 @@
+header{
+  background-color: rgb(233, 232, 227);
+}
+
+.divider {
+  background-color: rgb(255, 255, 255);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, 0.205);
+
+  padding: 0 10%;
+  position: relative;
+}
+
+.container-footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.logo{
+  height: 75px;
+}
+.logo-footer{
+  width: 300px;
+}
+
+.titulo-header{
+  font-size: 30px;
+  background-color: black;
+    padding: 5px 100px 5px 10px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(21, 20, 22, 0.205);
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.subtitulo-header{
+  /* font-family: 'Oleo Script Swash Caps', cursive; */
+  /* font-family: 'Libre Baskerville', serif; */
+  text-align: left;
+  position: absolute;
+  font-size: 15px;
+  margin: 20px 0 0 0;
+  background-color: black;
+    padding: 5px 150px 5px 10px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(21, 20, 22, 0.205);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 90%;
+}
+
+
+
+.container-1{
+  box-shadow: 0 0 20px 0 rgba(21, 20, 22, 0.205);
+
+  border: solid rgba(22, 20, 24, 0.15);
+  border-width: 1px 0;
+  border-radius: 10px
+  
+}
+.container-2{
+  box-shadow: 0 0 20px 0 rgba(21, 20, 22, 0.205);
+
+  border: solid rgba(24, 20, 22, 0.15);
+  border-width: 1px 0;
+  border-radius: 10px
+}
+
+@media (max-width: 800px) {
+
+  .divider{
+    box-shadow: inset 0 .2em 1.5em rgba(0, 0, 0, .1), inset 0 .100em .5em rgba(0, 0, 0, 0.205);
+  }
+
+  .text-small{
+      font-size: small;
+  }
+}
+

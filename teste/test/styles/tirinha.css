@@ -1,0 +1,137 @@
+.main-container {
+    background-color: #faf6f6;
+  
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+    /* border: solid rgba(24, 20, 22, 0.15); */
+    border-width: 1px 0;
+    /* border-radius: 10px */
+  }
+  
+  .container-explicacao {
+    margin-top: 70px;
+  }
+  
+  .container-1{
+  padding: 50px 80px;
+  }
+  
+  .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 -5px;
+  
+  grid-row-gap: 5%;
+  }
+  
+  .column1 {
+  padding-left: 123px;
+  }
+  .column2 {
+  padding-right: 123px;
+  }
+  
+  .button {
+  margin-top: 40px;
+  font-size: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    height: auto;
+  
+    padding: 50px;
+  }
+  
+  .box {
+   text-align: center;
+  }
+  
+  .horizontal-line {
+    width: 65px;
+    border: 1px solid rgb(241, 170, 206);
+    margin-bottom: 45px;
+  }
+  
+  
+  .tirinha-img1 {
+    width: 55rem;
+  }
+  
+  .tirinha-img2 {
+    width: 55rem;
+  }
+  
+  
+  /* BOTAO */
+  
+  .button-box {
+      display: flex;
+    justify-content: left;
+   }
+  
+  .button {
+      background-color: white;
+      padding: 20px;
+      text-decoration: none;
+      color: black;
+  
+    border: solid rgba(22, 20, 24, 0.15);
+    border-width: 1px 0;
+    border-radius: 25px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: transform .5s;
+  }
+  
+  .button:hover {
+      color: #c9a6ef;
+    box-shadow: 0 0 10px 0 rgba(27, 27, 41, 0.205);
+      transform: scale(1.08);
+  }
+  
+  @media (max-width: 1200px) {
+  
+    .flex-container{
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+  
+    .flex-container{
+      height: auto;
+      padding: 10% 5% 20% 5%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+    .flex-container{
+      height: auto;
+      flex-direction: column;
+      padding: 10% 5%;
+      align-items: center;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+  
+    .flex-container{
+      height: auto;
+      flex-direction: column;
+      padding: 10% 5% 40% 5%;
+      align-items: center;
+    }
+  
+    .text-box2{
+      margin-top: 10%;
+    }
+  
+  }
+  
